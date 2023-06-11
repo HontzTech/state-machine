@@ -1,4 +1,4 @@
-namespace ArcaneHeist.Scripts.EnemyBehaviour
+namespace HontzTech.StateMachine
 {
     /// <summary>
     /// Enum representing the possible types of states.
