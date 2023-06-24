@@ -51,6 +51,12 @@ namespace HontzTech.StateMachine
         #endregion
 
         private StateMachine _stateMachine;
+        private Rigidbody _rigidbody;
+
+        private void Awake()
+        {
+            _rigidbody = GetComponent<Rigidbody>();
+        }
 
         private void Start()
         {
@@ -91,7 +97,7 @@ namespace HontzTech.StateMachine
 
         public void SetVelocity(Vector3 newVelocity)
         {
-            Timeline.rigidbody.velocity = newVelocity;
+            _rigidbody.velocity = newVelocity;
         }
 
         public void RotateTowards(Vector3 direction)
