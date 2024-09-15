@@ -1,0 +1,15 @@
+{
+    "name": "com.hontztech.statemachine",
+    "version": "1.0.0",
+    "displayName": "State Machine",
+    "description": "A finite statemachine for Unity games.",
+    "unity": "6000.0",
+    "unityRelease": "19f1",
+    "dependencies": {},
+    "keywords": [
+      "State machine"
+    ],
+    "author": {
+      "name": "Hakon Hesselberg"
+    }
+  }
