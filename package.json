@@ -1,6 +1,6 @@
 {
     "name": "com.hontztech.statemachine",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "displayName": "State Machine",
     "description": "A finite statemachine for Unity games.",
     "unity": "6000.0",
